@@ -1,3 +1,8 @@
+* {
+    
+    box-sizing: border-box;
+    
+}
 body {
     color:black;
     font-weight:300px;
@@ -9,27 +14,31 @@ body {
 a{
     text-decoration: none;
 }
-header a {
-    color: black;
-}
-header a:hover {
-    color:#45a2da;
-}
 footer a{
     color:white;
-}
-
-h1,h2,h3,h4{
-    
-    color:#45a2da;
-}
-* {
-    
-    box-sizing: border-box;
-    
 }
 .container{
     width:960px;
     padding: 0 30px;
     margin:0 auto;
 }
+header a {
+    color: black;
+}
+header a:hover {
+    color:#45a2da;
+}
+
+h1,h2,h3,h4{
+    
+    color:#45a2da;
+}
+h4 {
+    Font-size: 14px;
+    Font-weight: 400;
+    Text-transform: uppercase;
+}
+nav {
+    text-align: right;
+}
+
